@@ -5,14 +5,16 @@ class Anagram
       @word = word
     end
       
-    def method(array)
-       array.select do |element|
-     (@word.split("").sort) == (element.split("").sort)
+    def match(array)
+      new_array = []
+      array.each do |anagram|
+       if anagram.split("").sort == @word.split("").sort
+       new_array << anagram
        end
+      end
+     arr
     end
- 
 
-end 
   
   
   
