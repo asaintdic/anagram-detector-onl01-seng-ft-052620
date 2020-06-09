@@ -12,7 +12,7 @@ class Anagram
        new_array << anagram
        end
       end
-     arr
+     new_array
     end
 end
   
